@@ -1,0 +1,40 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+}
+
+/* Header */
+.content {
+    right: 40px;
+    top: 40px;
+    position: fixed;
+    z-index: 50;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    display: inline-block;
+    aspect-ratio: 1;
+    text-align: center;
+    line-height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 15px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+}
